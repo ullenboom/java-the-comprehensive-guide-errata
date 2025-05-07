@@ -75,6 +75,14 @@ Your feedback is greatly appreciated—thank you for helping improve the book.
 - ❌ An array object has an object variable named length, and methods are declared on the array object, such as clone() and everything that java.**long**.Object has.
 - ✅An array object has an object variable named length, and methods are declared on the array object, such as clone() and everything that java.**lang**.Object has. 
 
+#### Arrays with { contents }
+
+- ❌ `"Caramellos," "Gummi Fish."`
+- ✅ `"Caramellos", "Gummi Fish",`
+
+- ❌ `double[] prices = new int[0]`
+- ✅ `double[] prices = new double[0];`
+
 #### Array Lengths Are Final
 
 - ❌ The **object variable attribute** length of an array isn’t only public and of type int, but of course also final
