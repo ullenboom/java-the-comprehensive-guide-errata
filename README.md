@@ -183,6 +183,11 @@ Your feedback is greatly appreciated—thank you for helping improve the book.
 
 ### Chapter 10: Nested Types
 
+#### Static Nested Types
+
+- ❌ Listing 10.1:: src/main/java/com/tutego/insel/nested/Lamp.java
+- ✅ Listing 10.1:: src/main/java/com/tutego/insel/nested/**SquirrelNutCaramel**.java
+
 #### Non-Static Nested Types
 
 - ❌ Let’s declare an inner class named Room in House with the following example code:
