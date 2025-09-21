@@ -255,8 +255,8 @@ $ java -ea:com.tutego... -da:com.tutego.App ClassWithMain
 - ❌ Let’s now use these thenComparing(...) methods from Comparator in an example that sorts a list of names last name and then by first name.
 - ✅ Let’s now use these thenComparing(...) methods from Comparator in an example that sorts a list of **calories and name**.
 
-- ❌ Basically, this method is a Comparator with a compare(Comparable**<Object>** c1, Comparable**<Object>** c2) method that returns c2.compareTo(c1).
-- ✅ Basically, this method is a Comparator with a compare(Comparable c1, Comparable c2) method that returns c2.compareTo(c1).
+- ❌ Basically, this method is a Comparator with a compare(Comparable< Object > c1, Comparable< Object > c2) method that returns c2.compareTo(c1).
+- ✅ Basically, this method is a Comparator with a compare(**Comparable c1, Comparable c2**) method that returns c2.compareTo(c1).
 
 #### 11.5.8. Handling Unsigned Numbers*
 
